@@ -1,0 +1,16 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.label {
+  border: 1px dotted black;
+  position: relative;
+  .labelFacts {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
