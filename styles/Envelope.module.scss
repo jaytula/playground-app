@@ -1,0 +1,18 @@
+.root {
+    font-size: 36px;
+    margin: 32px;
+    width: 1080px;
+    border: 1px dotted black;
+    padding: 24px;
+    text-transform: uppercase;
+}
+
+.root > div:first-child {
+    margin-bottom: 140px;
+}
+
+.root > div:nth-child(2) {
+    font-size: 48px;
+    margin-left: 400px;
+    padding-bottom: 140px;
+}
